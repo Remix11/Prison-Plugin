@@ -1,0 +1,7 @@
+name: MainClass
+main: me.divinius.MainClass
+version: 1.0
+commands:
+   COMMAND1:
+      description: BLANK
+      usage: /<command>

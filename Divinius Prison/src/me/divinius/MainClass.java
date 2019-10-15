@@ -20,5 +20,7 @@ public class MainClass extends JavaPlugin {
 	public void onDisable() {
 		
 	}
+	
+	public boolean onCommand(CommandSender, sender)
 
 }

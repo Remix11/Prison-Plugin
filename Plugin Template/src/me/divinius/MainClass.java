@@ -8,12 +8,12 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class MainClass extends JavaPlugin {
 
-	@Overridden
+	@Overridde
 	public void onEnable() {
 		
 	}
 	
-	@Overridden
+	@Overridde
 	public void onDisable() {
 		
 	}

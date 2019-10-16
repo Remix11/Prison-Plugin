@@ -21,6 +21,15 @@ public class MainClass extends JavaPlugin {
 		
 	}
 	
-	public boolean onCommand(CommandSender, sender)
+	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args){
+		
+		
+		if (cmd.getName().equalsIgnoreCase("cl") && sender instanceof Player)
+			
+			Player player = (Player) sender;
+			// I forgot what this was supposed to do...
+	
+	
+	}
 
 }

@@ -28,8 +28,12 @@ public class MainClass extends JavaPlugin {
 			
 			Player player = (Player) sender;
 			// I forgot what this was supposed to do...
+		
+		return true
 	
 	
 	}
+	
+	return false
 
 }

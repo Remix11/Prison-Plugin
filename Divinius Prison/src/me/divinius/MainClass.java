@@ -13,9 +13,7 @@ import java.util.Random;
  */
 public class MainClass extends JavaPlugin {
 	
-	Random rand = new Random();
 	
-	int coins = rand.nextInt(50);
 	
 	@Override
 	public void onEnable() {
@@ -33,8 +31,12 @@ public class MainClass extends JavaPlugin {
 		if (cmd.getName().equalsIgnoreCase("cf") && sender instanceof Player)
 			
 			Player player = (Player) sender;
+		
+			Random rand = new Random();
+	
+			int coins = rand.nextInt(-50,50);
 			
-			player.sendMessage()
+			player.sendMessage(rand.nextInt() + "coins")
 			
 		
 		return true

@@ -30,11 +30,11 @@ public class MainEnchants extends JavaPlugin implements Listener {
 	public void onJoin(PlayerJoinEvent event) {
 		Player player = event.getPlayer();
 
-		ItemStack item = new ItemStack(Material.DIAMOND_AXE);
+		ItemStack item = new ItemStack(Material.DIAMOND_PICKAXE);
 		ItemMeta meta = item.getItemMeta();
 		ArrayList<String> lore = new ArrayList<String>();
 		lore.add(ChatColor.GRAY + ench.getName() + " I");
-		meta.setDisplayName(ChatColor.GOLD + "Explosive Axe");
+		meta.setDisplayName(ChatColor.GOLD + "Blast Pickaxe");
 		meta.setLore(lore);
 		item.setItemMeta(meta);
 		item.addUnsafeEnchantment(ench, 1);

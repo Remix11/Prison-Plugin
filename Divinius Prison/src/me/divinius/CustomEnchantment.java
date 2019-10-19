@@ -1,4 +1,4 @@
-package me.divinius;
+package me.divinius.enchants;
 
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.enchantments.EnchantmentTarget;
